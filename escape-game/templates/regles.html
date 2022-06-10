@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+	
+	<link rel = "stylesheet" href = "../static/css/style.css">
+	<title>Projet ghibli</title>
+	<link rel="icon" href="../static/totoro.ico"/>
+	
+</head>
+
+<body>
+	
+	<h1>Règles ✧</h1>
+	
+	<div class = "r">
+		<p>Le but du jeu est de chercher puis de trouver un personnage. 
+		Au cours de l'aventure, vous pourrez explorer différents endroits en cliquant 
+		sur des liens (texte souligné) ou des images correspondant à chaque lieu. Quelques fois,
+		Il vous faudra choisir un seul chemin parmis plusieurs, réfléchissez bien
+		avant de prendre une décision.</p>
+	</div>
+	
+	<div class = "plot">
+		<p>Pour obtenir des indices sur la position du personnage, des questions et 
+		des énigmes vous seront posées. Vous devrez y répondre sous différentes formes :</p>
+		
+		<li> QCM à réponse unique :
+			<label for="v"> vrai <input class = "r" type="radio" name="vf" id="v"></label>
+			<label for="f"> faux <input class = "r" type="radio" name="vf" id="f"></label>
+		</li> <br>
+		
+		<li> QCM à plusieurs réponses :
+			<label for="m"> mangue <input type="checkbox" name="ex" id="m"></label>
+			<label for="c"> cerise <input type="checkbox" name="ex" id="c"></label>
+		</li> <br>
+		
+		<li> Saisie de texte :
+			<label for="a">quel est votre âge ? <input type="text" name="age" id="a"></label>
+		</li> <br>
+	</div>
+	
+	<div class = "r">
+		<p>Vous avez le droit de chercher des informations sur internet, en particulier si vous
+		ne connaissez pas le film <i>Mon voisin Totoro</i>. Il est recommandé de garder de quoi noter
+		à côté de vous afin de ne pas oublier les indices qui vous permettront de réussir le jeu.</p>
+	</div>
+	
+	<a href="/intro">
+		<div class = "i">
+			<p class = "intro"><b>Lire le contexte</b></p>
+		</div>
+	</a>
+	
+</body>
+</html>

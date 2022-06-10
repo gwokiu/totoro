@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+	
+	<link rel = "stylesheet" href = "../../static/css/style.css">
+	<title>Projet ghibli</title>
+	<link rel="icon" href="../../static/totoro.ico"/>
+	
+</head>
+
+<body>
+	<h1>Bureau ✧</h1>
+	
+	<div class = "r">
+		<p>Vous entrez dans le bureau et vous appercevez votre père,
+		assis en train de travailler. Autour de lui sont disposés des
+		piles de livres. Vous vous approchez et il vous sourit.</p>
+	</div>
+	
+	<img class = "f" src = "../../static/papa.jpg">
+	
+	<div class = "r">
+		<form action ="/papa" method="post"><label for="papa"></label>
+			<p><input type="radio" id="papa" name="papa" value="question"/> Lui poser une question </p>
+            <p><input type="radio" id="papa" name="papa" value="livre" checked /> Feuilleter ses livres </p>
+            <div class = "sub">
+				<input type="submit" value="confirmer">
+			</div>
+		</form>
+	</div>
+	
+	<a href = "/maison/interieur">
+		<div class = "i">
+			<p class = "intro"><b>Retourner dans le salon</b></p>
+		</div>
+	</a>
+</body>

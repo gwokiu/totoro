@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+	
+	<link rel = "stylesheet" href = "../static/css/style.css">
+	<title>Projet ghibli</title>
+	<link rel="icon" href="../static/totoro.ico"/>
+	
+</head>
+
+<body>
+	<h1>Bureau ✧</h1>
+	
+	<div class = "plot">
+		<form action ="/livres" method="post"><label for="livre"><p> Vous choisissez de prendre un livre sur ...</p></label>
+			<p><input type="radio" id="livre" name="livre" value="plantes"/> Les plantes </p>
+			<p><input type="radio" id="livre" name="livre" value="legendes"/> Les légendes locales </p>
+			<p><input type="radio" id="livre" name="livre" value="histoire" checked /> L'histoire </p>
+            <div class = "sub">
+				<input type="submit" value="confirmer">
+			</div>
+		</form>
+	</div>
+</body>

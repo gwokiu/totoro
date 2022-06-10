@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+	
+	<link rel = "stylesheet" href = "../static/css/style.css">
+	<title>Projet ghibli</title>
+	<link rel="icon" href="../static/totoro.ico"/>
+	
+</head>
+
+<body>
+	<h1>Coeur de la forêt ✧</h1>
+	
+	<div class = "r">
+		<p>Vous parvenez au centre de la forêt. Vous remarquez un vieux panneau abimé
+		et couvert de feuilles. Vous vous approchez et lisez :
+		" On peut s’asseoir sur mon premier dans les parcs. L'eau fait mon deuxième à 100°C. 
+		Mon tout est la plante à côté de laquelle vous trouverez le 
+		roi de la forêt."</p>
+	</div>
+	
+	<div class = "plot">
+		<form action ="/foret/plante" method="post"><label for="plante"></label>
+			<p>Donnez la réponse tout en minuscules </p>
+			<p> Vous cherchez des ... <input type="text" id="plante" name="plante"/></p>
+			<div class = "sub">
+				<input type="submit" value="confirmer">
+			</div>
+		</form>
+	</div>
+	
+</body>

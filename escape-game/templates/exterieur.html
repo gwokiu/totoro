@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+	
+	<link rel = "stylesheet" href = "../static/css/style.css">
+	<title>Projet ghibli</title>
+	<link rel="icon" href="../static/totoro.ico"/>
+	
+</head>
+
+<body>
+
+	<h1>Extérieur de la maison ✧</h1>
+
+	<div class = "plot">
+		<p>Vous décidez de rester dehors et d'observer votre maison. Votre petite soeur vous accompagne
+		et semble très concentrée. Vous ne remarquez rien de spécial par ici. De l'autre côté de
+		chez vous se trouvent des étendoirs à linge. À gauche, une pompe à eau, et derrière vous, des rizières.
+		Mei décide de faire le tour de la maison.</p>
+	</div>
+	
+	<div class = "r">
+		<form action ="/maison/exterieur/suite" method="post"><label for="suivre"><p>Suivre Mei ?</p></label>
+            <p><input type="radio" id="suivre" name="suivre" value="oui"/> Oui</p>
+            <p><input type="radio" id="suivre" name="suivre" value="non" checked /> Non</p>
+			<div class = "sub">
+				<input type="submit" value="confirmer">
+			</div>
+		</form>
+	</div>
+	
+</body>

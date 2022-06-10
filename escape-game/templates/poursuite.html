@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+	
+	<link rel = "stylesheet" href = "../static/css/style.css">
+	<title>Projet ghibli</title>
+	<link rel="icon" href="../static/totoro.ico"/>
+	
+</head>
+
+<body>
+	
+	<h1>Jardin ✧</h1>
+	
+	<div class = "r">
+		<p>Vous courrez après les deux esprits en criant : "Mei ! Viens voir ! Vite !".
+		Elle se lève et vous suit en essayant de garder votre rythme. 
+		"Je les reconnais, ne les perds pas de vue ! Ils vont nous guider
+		jusqu'à chez Totoro !"</p>
+	</div>
+	
+	<div class = "plot">
+		<p>Vous tentez tant bien que mal d'appliquer les conseils de votre soeur, mais
+		les deux créatures sont trop rapides. Vous ne les voyez déjà plus. Vous ralentissez
+		et regardez autour de vous ... Vous semblez voir des noisettes éparpillées sur le sol.</p>
+	</div>
+	
+	<div class = "r">
+		<form action ="/poursuite/suite" method="post">
+			<label for="chemin"></label><p><input type="checkbox" id="chemin" name="chemin"/> Suivre le chemin formé par les fruits </p>
+            <label for="noisette"></label><p><input type="checkbox" id="noisette" name="noisette"/> Ramasser les noisettes</p>
+            <div class = "sub">
+				<input type="submit" value="confirmer">
+			</div>
+		</form>
+	</div>
+</body>

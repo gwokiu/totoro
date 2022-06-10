@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+	
+	<link rel = "stylesheet" href = "../static/css/style.css">
+	<title>Projet ghibli</title>
+	<link rel="icon" href="../static/totoro.ico"/>
+	
+</head>
+
+<body>
+	
+	<h1>Entrée de la forêt ✧</h1>
+
+	<div class = "plot">
+		<p>Vous entrez dans la forêt et vous vous arrêtez net. Juste devant vous se trouvent les deux
+		créatures sensées vous mener jusqu'à Totoro, immobiles. Vous comprenez (si vous n'aviez pas encore 
+		compris) qu'elles cherchent les fruits tombés de leur sac.</p>
+	</div>
+	
+	<div class = "r">
+		<form action ="/foret/arbre" method="post"><label for="rendre"><p>Vous décidez de ... </p></label>
+			<p><input type="radio" id="rendre" name="rendre" value="noisettes"/> Donner les noisettes aux esprits </p>
+            <p><input type="radio" id="rendre" name="rendre" value="glands" checked /> Donner les glands aux esprits </p>
+            <div class = "sub">
+				<input type="submit" value="confirmer">
+			</div>
+		</form>
+	</div>
+</body>

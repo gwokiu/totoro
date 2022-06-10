@@ -1,0 +1,139 @@
+body {
+	background-color: #A5BD7E;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+body.p {
+	background-color: #667A59;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+body.f1 {
+		background-color: #212A1E;
+		font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	width: 40%;
+	margin: 3% auto 3% auto;
+}
+
+p {
+	color: white;
+}
+
+img.tt {
+		display: block;
+		margin: 6% auto;
+		width: 20%;
+}
+
+p.intro {
+		font-size: 150%;
+}
+
+div.fin {
+	text-align: justify;
+		padding: 1% 10% 1% 10%;
+		background-color: #343F2F;
+		margin: 3% 11% 3% 11%;
+		font-size: 140%;
+		border: 4px dotted white;
+		border-radius: 70px;
+}
+
+div.start {
+		display: block;
+		margin: 5% auto;
+		font-size: 96%;
+}
+
+div.restart {
+			text-align: center;
+			margin: auto 40% 5% 40%;
+			padding: 1% 1% 1% 1%;
+}
+
+div.restart:hover {
+				background-color: #343F2F;
+				border-radius: 60px;
+}
+
+div.r {
+		text-align: justify;
+		padding: 1% 10% 1% 10%;
+		background-color: #89A577;
+		margin: 3% 11% 3% 11%;
+		font-size: 140%;
+		border: 4px dotted white;
+		border-radius: 70px;
+}
+
+div.i {
+	text-align: center;
+	margin: auto 40% 5% 40%;
+	padding: 1% 1% 1% 1%;
+}
+
+div.i:hover {
+			background-color: #B8CF8A;
+			border-radius: 60px;
+}
+
+div.plot {
+		text-align: justify;
+		padding: 1% 10% 1% 10%;
+		background-color: #B8CF8A;
+		color: white;
+		margin: 3% 11% 3% 11%;
+		font-size: 140%;
+		border: 4px dotted white;
+		border-radius: 70px;
+}
+
+div.m {
+		display: block;
+		text-align: center;
+		margin: auto 40% 5% 40%;
+		padding: 1% 1% 1% 1%;
+}
+
+div.m:hover {
+			background-color: #7EA374;
+			border-radius: 60px;
+}
+
+div.sub {
+		padding-bottom: 2%;
+}
+
+img.f {
+		display: block;
+		margin: 5% auto;
+		width: 37%;
+		border-radius: 70px;
+}
+
+img.p {
+	display: block;
+	margin: 5% auto;
+	width: 26%;
+	border-radius: 70px;
+}
+
+img.e {
+	display: block;
+	margin: 5% auto;
+	width: 34%;
+	border-radius: 70px;
+}
+
+li {
+	color: white;
+}
+
+a {
+	color: white;
+}

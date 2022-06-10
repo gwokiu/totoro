@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+	
+	<link rel = "stylesheet" href = "../../static/css/style.css">
+	<title>Projet ghibli</title>
+	<link rel="icon" href="../../static/totoro.ico"/>
+	
+</head>
+
+<body>
+
+	<h1>Extérieur de la maison ✧</h1>
+	
+	<div class = "r">
+		<p>Vous suivez donc votre soeur et arrivez 
+		toutes les deux à côté des étendoirs à linge. Mei s'accroupit devant 
+		un trou d'aération et vous dit que c'est ici qu'elle a vu les petites
+		créatures pour la première fois.</p>
+	</div>
+	
+	<div class = "plot">
+		<form action ="/maison/exterieur/linge" method="post"><label for="linge"><p>Vous décidez de ... </p></label>
+			<p><input type="radio" id="linge" name="linge" value="semer"/> Semer des glands autour des étendoirs </p>
+            <p><input type="radio" id="linge" name="linge" value="accroupir" checked /> Vous accroupir près de votre petite soeur </p>
+            <div class = "sub">
+				<input type="submit" value="confirmer">
+			</div>
+		</form>
+	</div>
+</body>

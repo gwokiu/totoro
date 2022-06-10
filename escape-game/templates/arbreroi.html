@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+	
+	<link rel = "stylesheet" href = "../static/css/style.css">
+	<title>Projet ghibli</title>
+	<link rel="icon" href="../static/totoro.ico"/>
+	
+</head>
+
+<body>
+	<h1>Arbre géant ✧</h1>
+	
+	<div class = "r">
+		<p>En regardant de plus près, vous remarquez
+		un creux bizarre au milieu des racines de l'arbre.
+		Vous déduisez que c'est l'entrée de chez Totoro.
+		Pour ouvrir cette "porte" il faut y poser une offrande.
+		Les deux esprits veulent vous remercier, il vous
+		guident donc une dernière fois : ils se mettent a 
+		tapoter leur ventre. </p>
+	</div>
+	
+	<img class = "p" src = "../static/arbreroi.gif">
+	
+	<div class = "r">
+		<form action ="/foret/arbreroi/suite" method="post"><label for="offrande"><p> Vous déposez les glands pour l'offrande à Totoro de manière à ce qu'ils forment ...</p></label>
+			<p><input type="radio" id="offrande" name="offrande" value="cercle"/> Un cercle </p>
+			<p><input type="radio" id="offrande" name="offrande" value="fleche"/> Une flèche vers le haut</p>
+			<p><input type="radio" id="offrande" name="offrande" value="v" checked /> Une flèche vers le bas</p>
+            <div class = "sub">
+				<input type="submit" value="confirmer">
+			</div>
+		</form>
+	</div>
+</body>
